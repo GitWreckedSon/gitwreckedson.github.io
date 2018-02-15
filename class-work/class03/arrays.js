@@ -11,7 +11,7 @@
  * Use "image1.png", "image2.png", and "image3.png" as the array values.
  */
 
-// var q1 = ["image1.png", "image2.png", and "image3.png"]
+var q1 = ["image1.png", "image2.png", and "image3.png"]
 
 /**
  * Question 2
@@ -19,7 +19,7 @@
  * in variable q2.
  */
 
-// var q2 = q1[0]
+var q2 = q1[0]
 
 /**
  * Question 3
@@ -27,7 +27,7 @@
  * and store it in variable q3
  */
 
-// var q3 = q1.length
+var q3 = q1.length
 
 /**
  * Question 4
@@ -36,7 +36,7 @@
  */
 
 
-// var q4 = q1.length - 1
+var q4 = q1.length - 1
 
 
 // ____________________________________________________________________________
@@ -54,10 +54,10 @@
  * an array of numbers with values 2, 3, 4, and 5.
  */
 
-// var q5 = [1,2,3,4]
-// var oneMoreRep = q5.map(function (newReps){
-// 	return newReps + 1
-// })
+var q5 = [1,2,3,4]
+var oneMoreRep = q5.map(function (newReps){
+	return newReps + 1
+}
 
 
 /**
@@ -66,12 +66,10 @@
  * (average = sum of all numbers/number of numbers). Store the average in q6.
  */
 
-// 
+
 // var q5 = [1,2,3,4]
 // const reducer = (accumulator, currentValue) => accumulator + currentValue;
-//
 // var arrayLength = q5.length
 // var arraySum = q5.reduce(reducer)
 // var arrayAverage = arraySum/arrayLength
-//
 // console.log(arrayAverage)
