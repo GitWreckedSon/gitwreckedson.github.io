@@ -12,6 +12,7 @@ var dumbLyrics3 = " bottles of beer on the wall!"
 var dumbSingularLyrics1 = " bottle of beer on the wall, "
 var dumbSingularLyrics2 = " bottle of beer! take one down, pass it around, "
 var dumbSingularLyrics3 = " bottles of beer on the wall!"
+var i === 99
 
 for (i = 99; i!==0; i--){
 	if (i===1){
