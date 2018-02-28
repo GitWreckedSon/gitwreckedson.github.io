@@ -1,0 +1,37 @@
+var MTA = {
+	trains: [
+		{
+			name: '1'
+			capacity: 300
+			activeTrains: 8
+			parkedTrains: 4
+			inRepair: 2
+			stations: [
+				{
+					name: 'south ferry',
+					maxCapacity: 350,
+					stationStatus: 'open',
+					hasPendingRepairs: 'yes',
+					repairPriority: 10
+					stationManager: 'chuck'
+				}, 
+				{
+					name: 'rector st,
+					maxCapacity: 300,
+					stationStatus: 'closed',
+					hasPendingRepairs: 'no',
+					repairPriority: 0
+					stationManager: 'chuck'
+				},
+				{
+					name: 'chambers st,
+					maxCapacity: 500,
+					stationStatus: 'open',
+					hasPendingRepairs: 'yes',
+					repairPriority: 3
+					stationManager: 'chuck'
+				},			 			
+			]
+		}
+	]
+}
